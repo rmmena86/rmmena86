@@ -1,16 +1,26 @@
-## Hi there 👋
+## Olá 👋, seja bem-vindo ao meu Github!
 
-<!--
-**rmmena86/rmmena86** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```js
+import Desenvolvedor from "rmmena86";
 
-Here are some ideas to get you started:
+class SobreMim extends Desenvolvedor {
+  nome = "Rodrigo Mena";
+  area = "Front-End Development";
+  trabalho = "WPP Commerce - Whirlpool (NRS Services)";
+  local = "Remoto";
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends Desenvolvedor {
+  front-end = [
+    "HTML", "CSS", "Javascript", "Typescript",
+    "SASS", "Tailwind CSS", "Shadcn/ui", "GraphQL",
+    "ReactJS", "Next.js", "React Native", "TanStack",
+  ];
+  back-end = ["Node.js"];
+  testing = [ "Jest", "React Testing Library (RTL)", "Playwright"];
+  plataformas = ["VTEX IO", "VTEX Fast Store", "Sanity", "Sentry"],
+  ferramentas = ["IA", "Notion", "Power BI", "Figma", "Git", "Github", "Atlassian"];
+  metodologias = ["Agile", "Scrum", "Kanban", "CI/CD"]
+  arquitetura = ["Microfrontends (MFF)", "Backend for Front-end (BFF)"]
+}
+```
