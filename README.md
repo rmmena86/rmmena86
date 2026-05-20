@@ -11,12 +11,12 @@ class SobreMim extends Desenvolvedor {
 }
 
 class Skills extends Desenvolvedor {
-  front-end = [
+  front_end = [
     "HTML", "CSS", "Javascript", "Typescript",
     "SASS", "Tailwind CSS", "Shadcn/ui", "GraphQL",
     "ReactJS", "Next.js", "React Native", "TanStack",
   ];
-  back-end = ["Node.js"];
+  back_end = ["Node.js"];
   testing = [ "Jest", "React Testing Library (RTL)", "Playwright"];
   plataformas = ["VTEX IO", "VTEX Fast Store", "Sanity", "Sentry"],
   ferramentas = ["IA", "Notion", "Power BI", "Figma", "Git", "Github", "Atlassian"];
